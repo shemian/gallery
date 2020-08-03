@@ -13,7 +13,7 @@ def index(request):
     return render(request,'index.html',{'images':images[::-1],'locations':locations,'categorys':categorys})
 
 def image_location(request, location):
-    image = Image.filter_by_location(loactions)
+    images = Image.filter_by_location(location)
     print(images)
     return render(request,'location.html',{'location_images': images})
 
