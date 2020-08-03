@@ -10,6 +10,7 @@ This is a Django application for personal gallery that allows a user to upload i
 
 
 ## Live link
+Click [View Site](https://galy254.herokuapp.com/) to visit the site
 
 ## User Story
   
