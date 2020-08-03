@@ -1,1 +1,1 @@
-web: gunicorn galleria.wsgi --log-file - --log-level debug
+web: gunicorn galleria.wsgi --log-file - 
